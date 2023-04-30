@@ -1,0 +1,163 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "start": "2023-04-30T20:03:51.147Z",
+    "end": "2023-04-30T20:15:00.485Z",
+    "duration": 669338
+  },
+  "results": [
+    {
+      "uuid": "66944c09-7c07-4320-9807-31d2b92eb2c2",
+      "title": "",
+      "fullFile": "cypress\\e2e\\testPatternsAppActions.cy.js",
+      "file": "cypress\\e2e\\testPatternsAppActions.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f252ee75-de64-4bce-b0ed-9aa9e7dd5cba",
+          "title": "Acess Admin Panel",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Shoul Login With Valid Credentials",
+              "fullTitle": "Acess Admin Panel Shoul Login With Valid Credentials",
+              "timedOut": null,
+              "duration": 14562,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.getSiteName().should(\"be.visible\", {\n  timeout: 10000\n});",
+              "err": {},
+              "uuid": "76d9e9d7-1974-4024-8c85-2e4d32f2a459",
+              "parentUUID": "f252ee75-de64-4bce-b0ed-9aa9e7dd5cba",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "76d9e9d7-1974-4024-8c85-2e4d32f2a459"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 14562,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "af9d0475-30ee-416d-928d-2a041ceb5915",
+      "title": "",
+      "fullFile": "cypress\\e2e\\testPatternsAppActions.cy.js",
+      "file": "cypress\\e2e\\testPatternsAppActions.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4cc7c63a-0501-4c2f-a8fa-ccdad190acc3",
+          "title": "Acess Admin Panel",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Shoul Login With Valid Credentials",
+              "fullTitle": "Acess Admin Panel Shoul Login With Valid Credentials",
+              "timedOut": null,
+              "duration": 8400,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.getSiteName().should(\"be.visible\", {\n  timeout: 10000\n});",
+              "err": {},
+              "uuid": "78b85c55-61c1-42b2-8be8-733d55692c6e",
+              "parentUUID": "4cc7c63a-0501-4c2f-a8fa-ccdad190acc3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "78b85c55-61c1-42b2-8be8-733d55692c6e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8400,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "mochawesome-report",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

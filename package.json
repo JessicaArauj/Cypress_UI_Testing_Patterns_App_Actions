@@ -1,0 +1,23 @@
+{
+  "name": "automacao_de_ui_com_cypress_avancado",
+  "version": "1.0.0",
+  "description": "Scripts avancado de automação de UI utilizando Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "cy:run": "npx cypress run",
+    "cy:report": "npx mochawesome-merge .\\mochawesome-report\\mochawesome*.json > mochawesome-report\\report.json && npx marge mochawesome-report\\report.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.11.0"
+  },
+  "devDependencies": {
+    "cypress-log-to-output": "^1.1.2",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0"
+  }
+}
